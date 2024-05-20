@@ -1,88 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>FAEPEN-MT</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous">
+  <link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+  <link rel="preload" as="font" type="font/eot" href="/assets/materialdesignicons-webfont-DttUABo4.eot" crossorigin="anonymous">
+  <link rel="preload" as="font" type="font/woff2" href="/assets/materialdesignicons-webfont-CYDMK1kx.woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" type="font/woff" href="/assets/materialdesignicons-webfont-CgCzGbLl.woff" crossorigin="anonymous">
+  <link rel="preload" as="font" type="font/ttf" href="/assets/materialdesignicons-webfont-D3kAzl71.ttf" crossorigin="anonymous">
+
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workspace - FAEPEN/MT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-CCh5hwVg.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Dj8ATDBm.css">
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="images/faepenlogo.png" width="300">
-            </div>
-            <ul>
-                <li><a onclick="menu('index'); setActive(this);" href="index.html">Home</a></li>
-                <li><a onclick="menu('compras'); setActive(this);" href="#">Compras e Patrimônios</a></li>
-                <li><a onclick="menu('contabilidade'); setActive(this); "href="#">Contabilidade</a></li>
-                <li><a onclick="menu('estagio'); setActive(this); "href="#">Estágio</a></li>
-                <li><a onclick="menu('financeiro'); setActive(this); "href="#">Financeiro</a></li>
-                <li><a onclick="menu('prestacao'); setActive(this); "href="#">Prestação de Contas</a></li>
-                <li><a onclick="menu('projetos'); setActive(this); "href="#">Projetos</a></li>
-                <li><a onclick="menu('processos'); setActive(this); "href="#">Processos</a></li>
-                <li><a onclick="menu('stif'); setActive(this); "href="#">STIF</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="conteudo">
-        <section style="width: 100%;">
-            <h1><i class='bx bxs-briefcase'></i></i> Workspace FAEPEN-MT</h1>
-            <!-- <h1><i class='bx bxs-calendar'></i> Mais usados</h1> -->
-            
-            <span>
-
-                <button class="ponto">
-                    <a href="https://app2.pontomais.com.br/registrar-ponto/deslogado" target="_blank"><img src="images/pm_favicon.svg"
-                            width="100" height="100">Ponto</a>
-                </button>
-                <button class="relatório">
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLScr5kH3mEiKTEoEswYnRtjMaqhNg4Z-QZSWUZMQfSvvgHoRdg/viewform" target="_blank"><img
-                            src="images/relatório.png" width="100" height="100">Relatório Diário</a>
-                </button>
-                <button>
-                    <a class="smbot" href="https://www.smsolucoesdigital.com.br/#/atendimentos/chat" target="_blank"><img
-                            src="images/smbot.png" width="100" height="100">SMBOT</a>
-                </button>
-                <button>
-                    <a href="https://webmail.faepenmt.com.br/" target="_blank"><img src="images/webmail.svg" width="100"
-                            height="100">Webmail</a>
-                </button>
-                <button>
-                    <a href="https://www.gov.br/governodigital/pt-br/assinatura-eletronica" target="_blank"><img
-                            src="images/gov.br-logo-0.png" width="100" height="100">Assinatura Eletrônica</a>
-                </button>
-                <button>
-                    <a href="https://validar.iti.gov.br/" target="_blank"><img src="images/gov.br-logo-0.png" width="100"
-                            height="100">Validar Assinatura</a>
-                </button>
-
-                <button>
-                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="images/Gmail_icon_(2020).svg.png" width="100"
-                            height="100">GMAIL</a>
-                </button>
-
-                <button>
-                    <a href="https://faepenmt.zeev.it/2.0/request?c=FujT9t9nM480v83WLq0pOGkxXH9IvA6mZoIsGc1Cyhp54RXNHc%2BdXYNXFLmAj067AfX3w2gVO3SjX4Ld%2FrahtA%3D%3D" target="_blank"><img src="images/suporte home.png" width="100"
-                            height="100">Solicitação STIF</a>
-                </button>
-            </span>
-                                       <p><strong>Ferramenta para centralização dos links gerais utilizados no dia a dia.
-                Sugestão de inclusão deverá ser solicitada via chamado no setor STIF.</strong></p>
-        </section>
-    </main>
-
-    <footer>
-        <p><i class='bx bx-copyright'></i> Desenvolvido por Tecnologia da Informação da FAEPEN-MT |
-            setor.tif@faepenmt.com.br</a></p>
-        <script src='main.js'></script>
+  <div id="app"></div>
 </body>
+<style>
+  * {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+</style>
 
 </html>
